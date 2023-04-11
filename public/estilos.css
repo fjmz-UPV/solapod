@@ -1,0 +1,54 @@
+#principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#datos {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width:75%;
+    margin: 20px;
+}
+#descripcion {
+    width: 75%;
+    text-align: justify;
+}
+#foto {
+    width: 50%;
+    margin: 20px;
+}
+.concepto {
+    font-weight :bold;
+}
+.concepto span {
+    font-weight: normal;
+}
+
+#datos {
+    align-items: center;
+  }
+  
+  #mosaico {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .miniatura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  .miniatura img {
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .miniatura p {
+    font-size: 12px;
+  }

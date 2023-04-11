@@ -1,0 +1,18 @@
+{
+  "name": "apod",
+  "version": "1.0.0",
+  "description": "Astronomy Photography of the Day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compilar": "npx babel jsx --presets @babel/react --out-dir public",
+    "actualizar": "npx babel jsx --presets @babel/react --out-dir public --watch --verbose"
+  },
+  "author": "Paco",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
